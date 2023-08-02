@@ -4,6 +4,8 @@
 
 package com.projetoescola.projetoescola;
 
+import view.JFrameCadastroAluno;
+
 /**
  *
  * @author gutei
@@ -11,6 +13,7 @@ package com.projetoescola.projetoescola;
 public class ProjetoEscola {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        JFrameCadastroAluno tela = new JFrameCadastroAluno();
+        tela.setVisible(true);
     }
 }
